@@ -1,10 +1,10 @@
 import React from 'react'
-import { MapPin } from 'lucide-react';
-import { Input } from '@/components/ui/input';
+import { ChevronDown, MapPin } from 'lucide-react';
+import { Button } from '@/components/ui/button';
 
 const AddressBox = () => {
     return (
-        <div className='mx-8 bg-gray-100 px-3 py-1 shadow-sm  rounded-lg flex items-center gap-1'>
+        <Button variant='outline' className='mx-8 bg-gray-100 px-3 py-1 shadow-sm border-none  rounded-lg flex items-center gap-1 justify-start text-left'>
             <MapPin size={20} />
             <div className='flex flex-col gap-0'>
                 <div className='text-gray-500 font-thin' style={{
@@ -14,7 +14,8 @@ const AddressBox = () => {
                     fontSize: '0.8rem'
                 }}>Pune, Maharashtra</div>
             </div>
-        </div>
+            <ChevronDown size={6} />
+        </Button>
     )
 }
 

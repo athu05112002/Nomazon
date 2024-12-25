@@ -1,7 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import AddressBox from './(SearchBarComponents)/AddressBox'
-import SearchInput from './(SearchBarComponents)/SearchInput'
+import AddressBox from './AddressBox'
+import SearchInput from './SearchInput'
+import WishList from './WishList'
+import Cart from './Cart'
+import AvatarBox from './AvatarBox'
 
 const SearchBar = () => {
     return (
@@ -14,9 +17,9 @@ const SearchBar = () => {
                 ></Image>
                 <AddressBox />
                 <SearchInput />
-                {/* Wishlist */}
-                {/* Cart button */}
-                {/* User icon */}
+                <WishList />
+                <Cart />
+                <AvatarBox />
             </div>
         </div>
     )
