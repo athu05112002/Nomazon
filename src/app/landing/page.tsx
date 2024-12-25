@@ -1,6 +1,7 @@
 import React from "react";
 import SearchBar from "./(LandingPageComponents)/SearchBar";
 import ExploreProducts from "./(LandingPageComponents)/ExploreProducts";
+import CategoryGrid from "./(LandingPageComponents)/(ShopByCategories)/CategoryGrid";
 
 const LandingPage = () => {
   return (
@@ -11,7 +12,7 @@ const LandingPage = () => {
       {/* CategoryBar */}
       {/* Hero Carousel  */}
       <ExploreProducts />
-      {/* Shop by Category  */}
+      <CategoryGrid />  
       {/* last viewed */}
       {/* Subscribe to News letter */}
       {/* Footer */}
