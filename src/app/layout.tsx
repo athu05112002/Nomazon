@@ -9,7 +9,8 @@ const geistSans = Geist({
 
 const inter = Inter({
   variable: "--font-inter",
-  subsets: ["latin"]
+  subsets: ["latin"],
+  weight: ['100']
 })
 
 const geistMono = Geist_Mono({
