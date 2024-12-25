@@ -44,12 +44,13 @@ const ExploreProducts: React.FC = () => {
             />
           ))}
         </div>
-      </div>
-
-      <div>
+        <div>
         {/* Categories Section */}
         <CategoriesSection categories={categories} />
       </div>
+      </div>
+
+      
     </div>
   );
 };
